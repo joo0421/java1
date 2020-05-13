@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+  </head>
+  <body>
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&family=Poor+Story&display=swap" rel="stylesheet">
+  <style>
+      .f{
+        font-family: 'Poor Story', cursive;
+  font-family: 'Nanum Myeongjo', serif;
+      }
+      .lh{line-height: 1.8;
+    }
+    .lh2{line-height: 2.0;
+    }
+    .fs1{font-size: x-large;
+    }
+    .fs2{font-size: large;
+    }
+    .fs3{font-size: nomal;
+    }
+    .fs4{font-size: small;
+    }
+    .bl{color: blue
+    }
+  </style>
+    <span class="f">
+    <title>체</title>
+<h1>체</h1>
+페이지 준비중입니다.<br>
+<br>
+<a href="index.html">
+  <span class="fs2">
+    ★ Go to the Main page </a></body>
+    <span class="fs4">
+<p>
+    <div class="lhs">앗, 눈이 아프시다구요?<br>
+       야간모드를 활용하세요!
+
+       <input type="button" value="야간모드" onclick="
+       var bd = document.querySelector('body');
+       if (this.value === '야간모드') {
+         bd.style.backgroundColor = 'black';
+       bd.style.color = 'white';
+     this.value='주간모드' ;
+     var change= document.querySelectorAll('.bl');
+     i=0;
+     while (i<change.length){
+     change[i].style.color = 'yellow';
+     i=i+1;
+   }
+   var alist = document.querySelectorAll('a');
+i=0;
+while (i<alist.length){
+alist[i].style.color = '#FAF58C	';
+i=i+1;
+}
+   } else {
+     bd.style.backgroundColor='white';
+       bd.style.color='black';
+     this.value='야간모드';
+     var change= document.querySelectorAll('.bl');
+i=0;
+while (i<change.length){
+change[i].style.color ='blue';
+i=i+1;
+}
+var alist = document.querySelectorAll('a');
+i=0;
+while (i<alist.length){
+alist[i].style.color = '#1E82FF	';
+i=i+1;
+}
+}"> </p>
+
+</body>
+</html>
